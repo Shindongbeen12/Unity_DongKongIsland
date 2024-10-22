@@ -10,7 +10,7 @@ public class DilogExcelManager : MonoBehaviour
     public TMP_Text dialogText;  // 대화 내용을 출력할 Text UI
     
 
-    private int currentDialogIndex = 0; // 현재 대화 인덱스
+    private int currentDialogIndex = 0; // 현재 대화 인덱스 
 
     void Start()
     {
