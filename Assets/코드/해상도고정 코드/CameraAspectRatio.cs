@@ -2,29 +2,29 @@ using UnityEngine;
 
 public class CameraAspectRatio : MonoBehaviour
 {
-    // ø¯«œ¥¬ Aspect Ratio (∞°∑Œ:ºº∑Œ ∫Ò¿≤)
+    // 16:9 ÏÑ§Ï†ï
     public float targetAspectRatio = 16f / 9f;
 
     void Start()
     {
-        // ∏ﬁ¿Œ ƒ´∏ﬁ∂Û ∞°¡Æø¿±‚
+        
         Camera mainCamera = Camera.main;
 
         if (mainCamera != null)
         {
-            // «ˆ¿Á µπŸ¿ÃΩ∫¿« »≠∏È ∞°∑Œ ºº∑Œ ∫Ò¿≤
+            
             float currentAspectRatio = (float)Screen.width / Screen.height;
 
-            // ø¯«œ¥¬ Aspect Ratioø° µ˚∂Û Width ∂«¥¬ Height∏¶ ¡∂¿˝
+            
             float orthographicSize = mainCamera.orthographicSize;
             if (currentAspectRatio > targetAspectRatio)
             {
-                // «ˆ¿Á ∫Ò¿≤¿Ã ¥ı ≥–¿ª ∂ß, Width∏¶ ¥√∑¡¡‹
+                
                 mainCamera.orthographicSize = orthographicSize * (currentAspectRatio / targetAspectRatio);
             }
             else
             {
-                // «ˆ¿Á ∫Ò¿≤¿Ã ¥ı ≥Ù¿ª ∂ß, Height∏¶ ¥√∑¡¡‹
+               
                 mainCamera.orthographicSize = orthographicSize / (currentAspectRatio / targetAspectRatio);
             }
         }

@@ -4,7 +4,8 @@ using UnityEngine.UI;
 public class ButtonColorController : MonoBehaviour
 {
     private Button button;
-
+    [SerializeField] public GameObject Talk;
+    public bool TalkActive = true;
     void Start()
     {
         
@@ -12,6 +13,17 @@ public class ButtonColorController : MonoBehaviour
 
     public void OnButtonClick()
     {
-        Debug.Log("버튼클릭");
+        
+        if(TalkActive == true)
+        {
+            Talk.SetActive(false);
+            TalkActive = false;
+        }
+        else if(TalkActive == false)
+        {
+            Talk.SetActive(true);
+            TalkActive = true;
+        }
+        
     }
 }

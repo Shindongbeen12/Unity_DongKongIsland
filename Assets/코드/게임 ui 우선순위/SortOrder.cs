@@ -10,11 +10,11 @@ public class SortOrder : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("½ºÅ©·Ñ ¼øÀ§" + Scroll.transform.GetSiblingIndex());
-        Debug.Log("Ä³¸¯ÅÍ ¼øÀ§" + Character.transform.GetSiblingIndex());
+        Debug.Log("ìŠ¤í¬ë¡¤ ìˆœìœ„" + Scroll.transform.GetSiblingIndex());
+        Debug.Log("ìºë¦­í„° ìˆœìœ„" + Character.transform.GetSiblingIndex());
         Character.transform.SetSiblingIndex(0);
-        Debug.Log("½ºÅ©·Ñ ¼øÀ§" + Scroll.transform.GetSiblingIndex());
-        Debug.Log("Ä³¸¯ÅÍ ¼øÀ§" + Character.transform.GetSiblingIndex());
+        Debug.Log("ìŠ¤í¬ë¡¤ ìˆœìœ„" + Scroll.transform.GetSiblingIndex());
+        Debug.Log("ìºë¦­í„° ìˆœìœ„" + Character.transform.GetSiblingIndex());
     }
 
     // Update is called once per frame
