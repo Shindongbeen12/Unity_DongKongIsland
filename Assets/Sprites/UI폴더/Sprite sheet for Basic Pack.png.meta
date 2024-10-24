@@ -67,10 +67,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -6869,7 +6869,7 @@ TextureImporter:
         width: 9
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6877,6 +6877,48 @@ TextureImporter:
       bones: []
       spriteID: 694f2aee8db039a4fb97b439d4068842
       internalID: -507686480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Fisher
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 340
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6f53455577e46498af948dd3edc6da
+      internalID: -499377819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Title_Axe
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 339
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c52d92a83afba74e82cb72aa17ff3ea
+      internalID: -385138839
       vertices: []
       indices: 
       edges: []
@@ -7213,6 +7255,8 @@ TextureImporter:
       Sprite sheet for Basic Pack_98: -306389673
       Sprite sheet for Basic Pack_99: 1648941185
       Star: 1766167498
+      Title_Axe: -385138839
+      Title_Fisher: -499377819
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
