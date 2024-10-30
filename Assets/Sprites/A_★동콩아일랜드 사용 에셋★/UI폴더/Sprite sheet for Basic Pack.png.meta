@@ -4656,7 +4656,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite sheet for Basic Pack_216
+      name: Arrow Buttons
       rect:
         serializedVersion: 2
         x: 535
@@ -5580,7 +5580,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite sheet for Basic Pack_260
+      name: Arrow Button
       rect:
         serializedVersion: 2
         x: 536
@@ -6890,7 +6890,7 @@ TextureImporter:
         width: 11
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6911,7 +6911,7 @@ TextureImporter:
         width: 9
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6919,6 +6919,111 @@ TextureImporter:
       bones: []
       spriteID: 1c52d92a83afba74e82cb72aa17ff3ea
       internalID: -385138839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite sheet for Basic Pack_2
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 87
+        width: 4
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6a57fe4487a1f4684663056dff02c0
+      internalID: 1731198619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow_right
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 331
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d267c3d0480c024fabf24a6f01ac74d
+      internalID: -1788806212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow_up
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 332
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cced72dacf5184c43ba01b1ca20eafe6
+      internalID: -510355235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow_Left
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 331
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c182417b8d5534e4b94ea3573f7c89ea
+      internalID: -998239552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow_Down
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 333
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e455e9288df93047a4fb65a882a0e38
+      internalID: 1858966726
       vertices: []
       indices: 
       edges: []
@@ -6938,6 +7043,12 @@ TextureImporter:
       2.Choice Sheet: -1994449903
       3.Butto: -217343408
       3.Button: 2029185842
+      Arrow Button: -1827339501
+      Arrow Buttons: -1489930021
+      Arrow_Down: 1858966726
+      Arrow_Left: -998239552
+      Arrow_right: -1788806212
+      Arrow_up: -510355235
       Fisher: -507686480
       Sprite sheet for Basic Pack_0: 598343381
       Sprite sheet for Basic Pack_1: -1672662767
@@ -7050,6 +7161,7 @@ TextureImporter:
       Sprite sheet for Basic Pack_197: 549047657
       Sprite sheet for Basic Pack_198: 885372580
       Sprite sheet for Basic Pack_199: 138131066
+      Sprite sheet for Basic Pack_2: 1731198619
       Sprite sheet for Basic Pack_20: 142343446
       Sprite sheet for Basic Pack_200: 614774125
       Sprite sheet for Basic Pack_201: -964242589
@@ -7067,7 +7179,6 @@ TextureImporter:
       Sprite sheet for Basic Pack_212: 1170490544
       Sprite sheet for Basic Pack_213: 1343802146
       Sprite sheet for Basic Pack_215: 232516547
-      Sprite sheet for Basic Pack_216: -1489930021
       Sprite sheet for Basic Pack_217: -1706543928
       Sprite sheet for Basic Pack_218: -1597588372
       Sprite sheet for Basic Pack_219: 1711057113
@@ -7116,7 +7227,6 @@ TextureImporter:
       Sprite sheet for Basic Pack_258: -1185328427
       Sprite sheet for Basic Pack_259: -1731097907
       Sprite sheet for Basic Pack_26: 894620677
-      Sprite sheet for Basic Pack_260: -1827339501
       Sprite sheet for Basic Pack_261: 54158588
       Sprite sheet for Basic Pack_262: 1651652598
       Sprite sheet for Basic Pack_263: 673681738
