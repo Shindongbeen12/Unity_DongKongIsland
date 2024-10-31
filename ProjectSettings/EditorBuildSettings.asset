@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: "Assets/Scenes/\uB3D9\uCF69\uC544\uC77C\uB79C\uB4DC/2.\uD0C0\uC774\uD2C0/Title.unity"
+    path: "Assets/Scenes/\uB3D9\uCF69\uC544\uC77C\uB79C\uB4DC/4.\uD0C0\uC774\uD2C0/Title.unity"
     guid: d0ba8c1e5ecd31b459ce9b721dca2ca9
   - enabled: 1
     path: "Assets/Scenes/\uB3D9\uCF69\uC544\uC77C\uB79C\uB4DC/3.\uC2A4\uD1A0\uB9AC
       \uBAA8\uB4DC/Dialouge.unity"
     guid: ec0f57da465f8e24986c448b01cd0b9f
   - enabled: 1
-    path: "Assets/Scenes/\uB3D9\uCF69\uC544\uC77C\uB79C\uB4DC/4.\uC790\uC720 \uBAA8\uB4DC/Character
+    path: "Assets/Scenes/\uB3D9\uCF69\uC544\uC77C\uB79C\uB4DC/3.\uC790\uC720 \uBAA8\uB4DC/Character
       Choice.unity"
     guid: 1384c2815f3b1f74f9a3d2bab88358bb
   m_configObjects: {}

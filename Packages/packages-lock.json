@@ -6,6 +6,7 @@
       "source": "builtin",
       "dependencies": {}
     },
+<<<<<<< HEAD
     "com.unity.2d.tilemap": {
       "version": "1.0.0",
       "depth": 0,
@@ -24,6 +25,8 @@
       },
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> parent of a711543 (맵 타일맵)
     "com.unity.collab-proxy": {
       "version": "2.0.1",
       "depth": 0,
