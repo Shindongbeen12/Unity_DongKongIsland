@@ -41,5 +41,9 @@ public class TilemapBoundsRestriction : MonoBehaviour
 
         // »õ·Î¿î Ä«¸Þ¶ó À§Ä¡ Àû¿ë
         mainCamera.transform.position = clampedCameraPosition;
+<<<<<<< HEAD
+=======
+        //123
+>>>>>>> parent of 51286c5 (ëŒ€í™” ê¸°ëŠ¥ ì¶”ê°€)
     }
 }
