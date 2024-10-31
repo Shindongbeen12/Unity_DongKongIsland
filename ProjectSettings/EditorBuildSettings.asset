@@ -6,12 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Title.unity
-    guid: d0ba8c1e5ecd31b459ce9b721dca2ca9
-  - enabled: 1
-    path: Assets/Scenes/Dialouge.unity
-    guid: ec0f57da465f8e24986c448b01cd0b9f
-  - enabled: 1
-    path: Assets/Scenes/Character Choice.unity
-    guid: 1384c2815f3b1f74f9a3d2bab88358bb
+    path: "Assets/Scenes/\uBBF8\uC0AC\uC6A9 \uD654\uBA74/GameSenceCanvas.unity"
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
