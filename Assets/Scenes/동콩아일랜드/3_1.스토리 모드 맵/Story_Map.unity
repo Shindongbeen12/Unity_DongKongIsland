@@ -11840,6 +11840,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &924961595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11899,6 +11900,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+=======
+>>>>>>> parent of eba3239 (충돌감지)
 =======
 >>>>>>> parent of eba3239 (충돌감지)
 --- !u!1 &1029431660
@@ -12084,10 +12087,14 @@ GameObject:
   - component: {fileID: 1048849734}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 1048849737}
   - component: {fileID: 1048849738}
 =======
 >>>>>>> parent of f454eb5 (캐릭터 이동 구현)
+=======
+  - component: {fileID: 1048849735}
+>>>>>>> parent of eba3239 (충돌감지)
 =======
   - component: {fileID: 1048849735}
 >>>>>>> parent of eba3239 (충돌감지)
@@ -12178,6 +12185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &1048849737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12192,6 +12200,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TexturePixelsPerWorldUnit: 16
 --- !u!114 &1048849738
+=======
+--- !u!114 &1048849735
+>>>>>>> parent of eba3239 (충돌감지)
 =======
 --- !u!114 &1048849735
 >>>>>>> parent of eba3239 (충돌감지)
@@ -12264,9 +12275,12 @@ MonoBehaviour:
   Down: 0
   RightDown: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   y1: 10.8
 =======
 >>>>>>> parent of f454eb5 (캐릭터 이동 구현)
+=======
+>>>>>>> parent of eba3239 (충돌감지)
 =======
 >>>>>>> parent of eba3239 (충돌감지)
 --- !u!1 &1183187675
@@ -17333,6 +17347,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &2010615581
 GameObject:
   m_ObjectHideFlags: 0
@@ -17846,5 +17861,7 @@ TilemapCollider2D:
   m_ExtrusionFactor: 0
 =======
 >>>>>>> parent of f454eb5 (캐릭터 이동 구현)
+=======
+>>>>>>> parent of eba3239 (충돌감지)
 =======
 >>>>>>> parent of eba3239 (충돌감지)
