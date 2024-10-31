@@ -41,6 +41,5 @@ public class TilemapBoundsRestriction : MonoBehaviour
 
         // 새로운 카메라 위치 적용
         mainCamera.transform.position = clampedCameraPosition;
-        //123
     }
 }
