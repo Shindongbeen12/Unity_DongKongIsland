@@ -2,20 +2,20 @@ using UnityEngine;
 
 public class CameraTouchControl : MonoBehaviour
 {
-    public float panSpeed = 2f;  // ì¹´ë©”ë¼ ì´ë™ ì†ë„
+    public float panSpeed = 2f;  // Ä«¸Ş¶ó ÀÌµ¿ ¼Óµµ
 
     void Update()
     {
-        // í„°ì¹˜ ì…ë ¥ ê°ì§€
+        // ÅÍÄ¡ ÀÔ·Â °¨Áö
         if (Input.touchCount == 1)
         {
             Touch touch = Input.GetTouch(0);
 
-            // í„°ì¹˜ì˜ ìƒíƒœì— ë”°ë¼ ì¹´ë©”ë¼ ì´ë™
+            // ÅÍÄ¡ÀÇ »óÅÂ¿¡ µû¶ó Ä«¸Ş¶ó ÀÌµ¿
             switch (touch.phase)
             {
                 case TouchPhase.Moved:
-                    // ì´ë™í•œ ê±°ë¦¬ì— ë¹„ë¡€í•´ì„œ ì¹´ë©”ë¼ ì´ë™
+                    // ÀÌµ¿ÇÑ °Å¸®¿¡ ºñ·ÊÇØ¼­ Ä«¸Ş¶ó ÀÌµ¿
                     Vector2 deltaPosition = touch.deltaPosition;
                     Vector3 moveVector = new Vector3(-deltaPosition.x, -deltaPosition.y, 0) * panSpeed * Time.deltaTime;
                     transform.Translate(moveVector);

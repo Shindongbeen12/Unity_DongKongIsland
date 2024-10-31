@@ -7,11 +7,11 @@ using UnityEngine.EventSystems;
 public class CharacterButton : MonoBehaviour
 {
     [SerializeField]
-    public Character_Man Man; //ë‚¨ì ìºë¦­í„° ì¶œë ¥
+    public Character_Man Man; //³²ÀÚ Ä³¸¯ÅÍ Ã¢
     [SerializeField]
-    public Character_Woman Woman; //ì—¬ì ìºë¦­í„° ì¶œë ¥
+    public Character_Woman Woman; //¿©ÀÚ Ä³¸¯ÅÍ Ã¢
     [SerializeField]
-    public Character_SKill Skill; //ìŠ¤í‚¬ ì¶œë ¥
+    public Character_SKill Skill; // ³²ÀÚ Ä³¸¯ÅÍ Ã¢
 
     [SerializeField]
     public GameObject ChoicePanel;
@@ -26,7 +26,7 @@ public class CharacterButton : MonoBehaviour
     public int Active = 0;
 
 
-    //ë²„íŠ¼ ëˆ„ë¥¼ ì‹œ ì¶œë ¥
+    //Ä³¸¯ÅÍ ¼±ÅÃ ¹öÆ°
     public void FarmerButton()
     {
         Man.Farmer();
@@ -64,13 +64,13 @@ public class CharacterButton : MonoBehaviour
         Skill.Hunter();
     }
 
-    //ë²„íŠ¼ ëˆ„ë¥¼ ì‹œ ë‹¤ìŒê³¼ ê°™ì€ ë‚´ìš© ì¶œë ¥
+    //Ä³¸¯ÅÍ ¼ºº° ¼±ÅÃ ÈÄ ÀÌº¥Æ®_ÃßÈÄ Á÷¾÷ ³Ñ¹ö°ª Ãß°¡ÇÏ±â
 
     public void Man_Farmer()
     {
         ChoicePanel.SetActive(true);
-        Sex.text = "ì„±ë³„ : ë‚¨ì";
-        Job.text = "ì§ì—… : ë†ë¶€";
+        Sex.text = "¼ºº° : ³²ÀÚ";
+        Job.text = "Á÷¾÷ : ³óºÎ";
         Warning.SetActive(true);
         StartCoroutine(MyCoroutine());
         
@@ -78,24 +78,24 @@ public class CharacterButton : MonoBehaviour
     public void Woman_Farmer()
     {
         ChoicePanel.SetActive(true);
-        Sex.text = "ì„±ë³„ : ì—¬ì";
-        Job.text = "ì§ì—… : ë†ë¶€";
+        Sex.text = "¼ºº° : ¿©ÀÚ";
+        Job.text = "Á÷¾÷ : ³óºÎ";
         Warning.SetActive(true);
         StartCoroutine(MyCoroutine());
     }
     public void Man_Fisher()
     {
         ChoicePanel.SetActive(true);
-        Sex.text = "ì„±ë³„ : ë‚¨ì";
-        Job.text = "ì§ì—… : ë‚šì‹œê¾¼";
+        Sex.text = "¼ºº° : ³²ÀÚ";
+        Job.text = "Á÷¾÷ : ³¬½Ã²Û";
         Warning.SetActive(true);
         StartCoroutine(MyCoroutine());
     }
     public void Woman_Fisher()
     {
         ChoicePanel.SetActive(true);
-        Sex.text = "ì„±ë³„ : ì—¬ì";
-        Job.text = "ì§ì—… : ë‚šì‹œê¾¼";
+        Sex.text = "¼ºº° : ¿©ÀÚ";
+        Job.text = "Á÷¾÷ : ³¬½Ã²Û";
         Warning.SetActive(true);
         StartCoroutine(MyCoroutine());
     }
@@ -103,16 +103,16 @@ public class CharacterButton : MonoBehaviour
     public void Man_Axer()
     {
         ChoicePanel.SetActive(true);
-        Sex.text = "ì„±ë³„ : ë‚¨ì";
-        Job.text = "ì§ì—… : ë‚˜ë¬´ê¾¼";
+        Sex.text = "¼ºº° : ³²ÀÚ";
+        Job.text = "Á÷¾÷ : ³ª¹«²Û";
         Warning.SetActive(true);
         StartCoroutine(MyCoroutine());
     }
     public void Woman_Axer()
     {
         ChoicePanel.SetActive(true);
-        Sex.text = "ì„±ë³„ : ì—¬ì";
-        Job.text = "ì§ì—… : ë‚˜ë¬´ê¾¼";
+        Sex.text = "¼ºº° : ¿©ÀÚ";
+        Job.text = "Á÷¾÷ : ³ª¹«²Û";
         Warning.SetActive(true);
         StartCoroutine(MyCoroutine());
     }
@@ -120,16 +120,16 @@ public class CharacterButton : MonoBehaviour
     public void Man_Builder()
     {
         ChoicePanel.SetActive(true);
-        Sex.text = "ì„±ë³„ : ë‚¨ì";
-        Job.text = "ì§ì—… : ê±´ì¶•ê°€";
+        Sex.text = "¼ºº° : ³²ÀÚ";
+        Job.text = "Á÷¾÷ : °ÇÃà°¡";
         Warning.SetActive(true);
         StartCoroutine(MyCoroutine());
     }
     public void Woman_Builder()
     {
         ChoicePanel.SetActive(true);
-        Sex.text = "ì„±ë³„ : ì—¬ì";
-        Job.text = "ì§ì—… : ê±´ì¶•ê°€";
+        Sex.text = "¼ºº° : ¿©ÀÚ";
+        Job.text = "Á÷¾÷ : °ÇÃà°¡";
         Warning.SetActive(true);
         StartCoroutine(MyCoroutine());
     }
@@ -137,16 +137,16 @@ public class CharacterButton : MonoBehaviour
     public void Man_Miner()
     {
         ChoicePanel.SetActive(true);
-        Sex.text = "ì„±ë³„ : ë‚¨ì";
-        Job.text = "ì§ì—… : ê´‘ë¶€";
+        Sex.text = "¼ºº° : ³²ÀÚ";
+        Job.text = "Á÷¾÷ : ±¤ºÎ";
         Warning.SetActive(true);
         StartCoroutine(MyCoroutine());
     }
     public void Woman_Miner()
     {
         ChoicePanel.SetActive(true);
-        Sex.text = "ì„±ë³„ : ì—¬ì";
-        Job.text = "ì§ì—… : ê´‘ë¶€";
+        Sex.text = "¼ºº° : ¿©ÀÚ";
+        Job.text = "Á÷¾÷ : ±¤ºÎ";
         Warning.SetActive(true);
         StartCoroutine(MyCoroutine());
     }
@@ -154,16 +154,16 @@ public class CharacterButton : MonoBehaviour
     public void Man_Hunter()
     {
         ChoicePanel.SetActive(true);
-        Sex.text = "ì„±ë³„ : ë‚¨ì";
-        Job.text = "ì§ì—… : ì‚¬ëƒ¥ê¾¼";
+        Sex.text = "¼ºº° : ³²ÀÚ";
+        Job.text = "Á÷¾÷ : »ç³É²Û";
         Warning.SetActive(true);
         StartCoroutine(MyCoroutine());
     }
     public void Woman_Hunter()
     {
         ChoicePanel.SetActive(true);
-        Sex.text = "ì„±ë³„ : ì—¬ì";
-        Job.text = "ì§ì—… : ì‚¬ëƒ¥ê¾¼";
+        Sex.text = "¼ºº° : ¿©ÀÚ";
+        Job.text = "Á÷¾÷ : »ç³É²Û";
         Warning.SetActive(true);
         StartCoroutine(MyCoroutine());
     }
@@ -179,7 +179,7 @@ public class CharacterButton : MonoBehaviour
         
         while (true)
         {
-            // 0.5ì´ˆ ì½”ë£¨í‹´
+            // 1ÃÊ ´ë±â
             yield return new WaitForSeconds(0.5f);
             
             
